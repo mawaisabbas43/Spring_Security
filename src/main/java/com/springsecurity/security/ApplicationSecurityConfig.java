@@ -28,7 +28,7 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .csrf().disable()
-                /* for allowing client to get token (Use when submitting form from browser disable otherwise like above)
+                /*Below is for allowing client to get token (Use when submitting form from browser disable otherwise like above)
                 .csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
                 .and()
                 */
