@@ -37,7 +37,7 @@ public class FakeApplicationUserDaoService implements ApplicationUserDao {
                         STUDENT.getGrantedAuthorities(),
                         true,
                         true,
-                        true,
+                        true, 
                         true
                 ),
                 new ApplicationUser(
